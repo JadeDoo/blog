@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jadedoo.github.io/"/>
-  <updated>2018-04-12T13:39:29.754Z</updated>
+  <updated>2018-04-12T14:54:39.575Z</updated>
   <id>https://jadedoo.github.io/</id>
   
   <author>
@@ -17,44 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>GitHub利用Hexo搭建博客</title>
-    <link href="https://jadedoo.github.io/GitHub%E5%88%A9%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/"/>
-    <id>https://jadedoo.github.io/GitHub利用Hexo搭建博客/index/</id>
-    <published>2018-04-12T13:25:26.000Z</published>
-    <updated>2018-04-12T13:39:29.754Z</updated>
-    
-    <content type="html"><![CDATA[<p>想要利用hexo和GitHub page搭建自己的博客，首先就要安装必要的工具。<strong><em> 在那之前你需要在<a href="https://github.com/" target="_blank" rel="noopener">Github</a>上注册一个账号。 </em></strong></p><h3 id="第一：安装nodejs"><a href="#第一：安装nodejs" class="headerlink" title="第一：安装nodejs"></a>第一：安装nodejs</h3><p>不会安装的可以看我的另外一篇文章 <a href="../利用3M安装nodejs/index.html">传送门</a></p><h3 id="第二：安装git"><a href="#第二：安装git" class="headerlink" title="第二：安装git"></a>第二：安装git</h3><p>直接到官网下载安装包，傻瓜式安装。 <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">传送门</a>。</p><h4 id="配置git"><a href="#配置git" class="headerlink" title="配置git"></a>配置git</h4><p>在任意地方右键运行git bash，执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;yourname&quot;</span><br><span class="line">$ git config --global user.email &quot;youremail&quot;</span><br></pre></td></tr></table></figure></p><p>其中yourname为你的GitHub名，youremail为你的GitHub邮箱。<br>继续执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</span><br></pre></td></tr></table></figure></p><p>可以在用户文件夹里看到一个<code>.ssh</code>文件，打开其中的<code>.pub</code>后缀名的文件，复制里面的内容。<br>打开GitHub网站，点击头像，选择setting，找到 SSH and GPG keys<br><img src="./index/setting1.png" alt="用户"><br><img src="./index/setting2.png" alt="用户"></p><h3 id="第三：安装hexo"><a href="#第三：安装hexo" class="headerlink" title="第三：安装hexo"></a>第三：安装hexo</h3><p>新建一个已准备存放blog的文件夹，在该文件目录下右键运行<code>git bash here</code>，输入<code>npm i -g hexo</code>，执行完毕后，输入<code>hexo -v</code>，出现版本号证明安装成功。</p><h3 id="第四：配置"><a href="#第四：配置" class="headerlink" title="第四：配置"></a>第四：配置</h3><ol><li>在BLOG文件夹中运行<code>git bash</code>，然后执行初始化命令<code>$ hexo init</code>。这时候hexo会自动生成说需要的文件。</li><li>执行完毕之后我们可以执行<code>$ hexo s --debug</code>命令打开hexo自带的服务器，默认端口号为4000。点击<a href="http://localhost:4000/" target="_blank" rel="noopener">localhost:4000</a></li><li>如果成功的话就可以看见hexo默认的模板页面，用<code>$ hexo new page &quot;name&quot;</code>新建文章，你可以随便写点内容，现在我们就要将它发布到网上去。不过在那之前，还需要在GitHub上新建一个仓库和配置一下<code>站点配置文件</code></li><li>打开blog文件根目录中找到<code>config.yml</code>文件，修改里面的部分内容。</li></ol><p>###第五：关联仓库<br>在此之前需要创建一个仓库</p><ol><li>点击<code>New reporitory</code>，新建仓库。<br><img src="./index/new.png" alt="新建仓库"></li><li>注意这里的仓库名称必须是此格式，<code>yourname.github.io</code>。其中yourname是你的github名称。<br><img src="./index/new1.png" alt="创建"></li><li>仓库有了，把本地blog上传到仓库。执行<code>$ hexo g -d</code>命令。<br>一切准备就绪，可以打开你的个人博客。GitHub page 网站格式 <code>yourname.github.io</code></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;想要利用hexo和GitHub page搭建自己的博客，首先就要安装必要的工具。&lt;strong&gt;&lt;em&gt; 在那之前你需要在&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github&lt;/a&gt;上注册一个
-      
-    
-    </summary>
-    
-      <category term="应用类" scheme="https://jadedoo.github.io/categories/%E5%BA%94%E7%94%A8%E7%B1%BB/"/>
-    
-    
-      <category term="Hexo" scheme="https://jadedoo.github.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>利用3M安装nodejs</title>
-    <link href="https://jadedoo.github.io/%E5%88%A9%E7%94%A83M%E5%AE%89%E8%A3%85nodejs/"/>
-    <id>https://jadedoo.github.io/利用3M安装nodejs/</id>
+    <link href="https://jadedoo.github.io/post/c80c1044/"/>
+    <id>https://jadedoo.github.io/post/c80c1044/</id>
     <published>2018-04-11T18:11:00.000Z</published>
-    <updated>2018-04-12T13:27:29.695Z</updated>
+    <updated>2018-04-12T14:54:39.575Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="nodejs在window下安装"><a href="#nodejs在window下安装" class="headerlink" title="nodejs在window下安装"></a>nodejs在window下安装</h2><p> nodejs有很多中安装方式，本篇文章使用的是nvm(nodejs version manager,版本管理工具)方式来进行安装。详情请查看<a href="https://github.com/coreybutler/nvm-windows" target="_blank" rel="noopener">【官方文档】</a>。</p><h3 id="安装nvm"><a href="#安装nvm" class="headerlink" title="安装nvm"></a>安装nvm</h3><ol><li><p>首先<a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank" rel="noopener">下载nvm包</a>,我们选择我们需要的免安装版:nvm-noinstall.zip,下载完成后解压,解压到你想要解压的地方就好,例如:C:\dev\nvm,文件包含:</p><ul><li>elevate.cmd</li><li>elevate.vbs</li><li>install.cmd</li><li>LICENSE</li><li>nvm.exe</li></ul></li><li><p>运行install.cmd,直接回车,会在C盘的根目录下生成settings.txt文件，将这个文件剪切到C:\dev\nvm目录中修改其中的内容</p><blockquote><p>root: C:\dev\nvm<br>path: C:\dev\nodejs<br>proxy: none<br>node_mirror: <a href="http://npm.taobao.org/mirrors/node/" target="_blank" rel="noopener">http://npm.taobao.org/mirrors/node/</a><br>npm_mirror: <a href="https://npm.taobao.org/mirrors/npm/" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/npm/</a></p></blockquote></li><li><p>配置环境变量，运行了install.cmd，所以直接在环境变量中找到并修改<code>NVM_HOME:C:\dev\nvm,NVM_SYMLINK:C:\dev\nodejs</code><br>然后修改path，如果发现path中有路径<code>C:\dev\nvm</code>，就将它删除，我们自己在最前面添加’ ;%NVM_HOME%;%NVM_SYMLINK%;’</p></li><li><p>运行cmd，输入 ‘nvm -v’ 显示版本号证明安装成功，注意它会显示一堆东西，往上拉就可以看见版本号,然后就可以安装nodejs了。<br><li>输入 <code>nvm install lastest</code> 安装最新版的nodejs，如果不想下载最新版则输入<code>nvm install 版本号</code>，例如 <code>nvm install 7.9.0</code>，32位的电脑还得在后面添加一个<code>32</code>。</li><br><li>这是打开<code>C:\dev</code>会发现有一个<code>noedjs</code>文件夹的快捷方式，它指向的就是<code>C:\dev\nvm</code>中nodejs的版本文件夹，例如<code>v7.9.0</code></li><br><li>运用nvm可以进行版本切换，<code>nvm use 版本号</code>，前提是得有这个版本。</li><br><li>输入nvm list 可以查看目前安装了几个nodejs版本和正在使用哪个版本。</li><br></p></li></ol><h3 id="安装npm"><a href="#安装npm" class="headerlink" title="安装npm"></a>安装npm</h3><li>npm(nodejs package manager，nodejs包管理工具)，每一个版本的nodejs都会自带一个npm，但是有时候明明安装了包，却无法使用，其中就有可能是因为版本切换问题而引起的，所以需要安装一个全局的npm。</li><br><li>运行cmd，输入<code>npm config set prefix “C:\dev\nvm\npm</code>，运行完成后可以在用户文件夹中找到一个<code>.npmrc</code>的文件，里面存的是一个路径。</li><br><li>继续输入<code>npm install npm -g</code>，等待下载。这是可以在<code>C:\dev\nvm\npm</code>中查看文件，以后需要安装全局包在后面加一个<code>-g</code>就好了。</li><br><li>当然，需要单独为全局npm配置环境变量<br><code>NPM_HOME:C:\dev\nvm\npm</code></li><br><li>在path最前面加上<code>;%NPM_HOME%</code>，这个是必须加载<code>%NVM_SYMLINK%</code>之前的，</li><li>输入 <code>npm -v</code> 显示版本号证明安装成功。</li><p></p><h3 id="安装nrm"><a href="#安装nrm" class="headerlink" title="安装nrm"></a>安装nrm</h3><p></p><p><li>nrm(npm registry manager，npm的镜像源管理工具)，这是为了切换镜像源，为什么需要？有时候国外的资源太慢，我们需要切换国内的资源点。</li></p><p><li>运行cmd，输入<code>npm install -g nrm</code>，等待下载安装完毕。</li></p><p><li>输入<code>nrm ls</code>，可以查看所有的可切换源地址。</li></p><p><li>一般来说国内的肯定比国外的要快，所以我们一般用淘宝的镜像地址，输入<code>nrm use cnpm</code>就可以切换了。</li><br></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="nodejs在window下安装"><a href="#nodejs在window下安装" class="headerlink" title="nodejs在window下安装"></a>nodejs在window下安装</h2><p>nodejs有很多中安装方式，本篇文章使用的是nvm(nodejs version manager,版本管理工具)方式来进行安装。详情请查看<a href="https://github.com/coreybutler/nvm-windows" target="_blank" rel="noopener">【官方文档】</a>。</p><h3 id="安装nvm"><a href="#安装nvm" class="headerlink" title="安装nvm"></a>安装nvm</h3><ol><li><p>首先<a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank" rel="noopener">下载nvm包</a>,我们选择我们需要的免安装版:nvm-noinstall.zip,下载完成后解压,解压到你想要解压的地方就好,例如:C:\dev\nvm,文件包含:</p><ul><li>elevate.cmd</li><li>elevate.vbs</li><li>install.cmd</li><li>LICENSE</li><li>nvm.exe</li></ul></li><li><p>运行install.cmd,直接回车,会在C盘的根目录下生成settings.txt文件，将这个文件剪切到C:\dev\nvm目录中修改其中的内容</p><blockquote><p>root: C:\dev\nvm<br>path: C:\dev\nodejs<br>proxy: none<br>node_mirror: <a href="http://npm.taobao.org/mirrors/node/" target="_blank" rel="noopener">http://npm.taobao.org/mirrors/node/</a><br>npm_mirror: <a href="https://npm.taobao.org/mirrors/npm/" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/npm/</a></p></blockquote></li><li><p>配置环境变量，运行了install.cmd，所以直接在环境变量中找到并修改<code>NVM_HOME:C:\dev\nvm,NVM_SYMLINK:C:\dev\nodejs</code><br>然后修改path，如果发现path中有路径<code>C:\dev\nvm</code>，就将它删除，我们自己在最前面添加’ ;%NVM_HOME%;%NVM_SYMLINK%;’</p></li><li><p>运行cmd，输入 ‘nvm -v’ 显示版本号证明安装成功，注意它会显示一堆东西，往上拉就可以看见版本号,然后就可以安装nodejs了。<br></p></li><li>输入 <code>nvm install lastest</code> 安装最新版的nodejs，如果不想下载最新版则输入<code>nvm install 版本号</code>，例如 <code>nvm install 7.9.0</code>，32位的电脑还得在后面添加一个<code>32</code>。</li><br><li>这是打开<code>C:\dev</code>会发现有一个<code>noedjs</code>文件夹的快捷方式，它指向的就是<code>C:\dev\nvm</code>中nodejs的版本文件夹，例如<code>v7.9.0</code></li><br><li>运用nvm可以进行版本切换，<code>nvm use 版本号</code>，前提是得有这个版本。</li><br><li>输入nvm list 可以查看目前安装了几个nodejs版本和正在使用哪个版本。</li><br><p></p></ol><h3 id="安装npm"><a href="#安装npm" class="headerlink" title="安装npm"></a>安装npm</h3><li>npm(nodejs package manager，nodejs包管理工具)，每一个版本的nodejs都会自带一个npm，但是有时候明明安装了包，却无法使用，其中就有可能是因为版本切换问题而引起的，所以需要安装一个全局的npm。</li><br><li>运行cmd，输入<code>npm config set prefix “C:\dev\nvm\npm</code>，运行完成后可以在用户文件夹中找到一个<code>.npmrc</code>的文件，里面存的是一个路径。</li><br><li>继续输入<code>npm install npm -g</code>，等待下载。这是可以在<code>C:\dev\nvm\npm</code>中查看文件，以后需要安装全局包在后面加一个<code>-g</code>就好了。</li><br><li>当然，需要单独为全局npm配置环境变量<br><code>NPM_HOME:C:\dev\nvm\npm</code></li><br><li>在path最前面加上<code>;%NPM_HOME%</code>，这个是必须加载<code>%NVM_SYMLINK%</code>之前的，</li><li>输入 <code>npm -v</code> 显示版本号证明安装成功。</li><p></p><h3 id="安装nrm"><a href="#安装nrm" class="headerlink" title="安装nrm"></a>安装nrm</h3><p></p><p></p><li>nrm(npm registry manager，npm的镜像源管理工具)，这是为了切换镜像源，为什么需要？有时候国外的资源太慢，我们需要切换国内的资源点。</li><p></p><p></p><li>运行cmd，输入<code>npm install -g nrm</code>，等待下载安装完毕。</li><p></p><p></p><li>输入<code>nrm ls</code>，可以查看所有的可切换源地址。</li><p></p><p></p><li>一般来说国内的肯定比国外的要快，所以我们一般用淘宝的镜像地址，输入<code>nrm use cnpm</code>就可以切换了。</li><br><p></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;nodejs在window下安装&quot;&gt;&lt;a href=&quot;#nodejs在window下安装&quot; class=&quot;headerlink&quot; title=&quot;nodejs在window下安装&quot;&gt;&lt;/a&gt;nodejs在window下安装&lt;/h2&gt;&lt;p&gt; nodejs有很多中安装方
+        &lt;h2 id=&quot;nodejs在window下安装&quot;&gt;&lt;a href=&quot;#nodejs在window下安装&quot; class=&quot;headerlink&quot; title=&quot;nodejs在window下安装&quot;&gt;&lt;/a&gt;nodejs在window下安装&lt;/h2&gt;&lt;p&gt;nodejs有很多中安装方式
       
     
     </summary>
