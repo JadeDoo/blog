@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jadedoo.github.io/"/>
-  <updated>2018-04-11T22:06:19.002Z</updated>
+  <updated>2018-04-11T20:15:04.663Z</updated>
   <id>https://jadedoo.github.io/</id>
   
   <author>
@@ -15,32 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hexo+GitHub Page 搭建静态博客（初级篇）</title>
-    <link href="https://jadedoo.github.io/Hexo-GitHub-Page-%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%88%9D%E7%BA%A7%E7%AF%87%EF%BC%89/"/>
-    <id>https://jadedoo.github.io/Hexo-GitHub-Page-搭建静态博客（初级篇）/</id>
-    <published>2018-04-11T20:12:03.000Z</published>
-    <updated>2018-04-11T22:06:19.002Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>想要利用hexo和GitHub page搭建自己的博客，首先就要安装必要的工具。<strong><em> 在那之前你需要在<a href="https://github.com/" target="_blank" rel="noopener">Github</a>上注册一个账号。 </em></strong></p></blockquote><h3 id="第一：安装nodejs"><a href="#第一：安装nodejs" class="headerlink" title="第一：安装nodejs"></a>第一：安装nodejs</h3><p>不会安装的可以看我的另外一篇文章 <a href="../利用3M安装nodejs/index.html">传送门</a></p><h3 id="第二：安装git"><a href="#第二：安装git" class="headerlink" title="第二：安装git"></a>第二：安装git</h3><p>直接到官网下载安装包，傻瓜式安装。 <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">传送门</a></p><h4 id="配置git"><a href="#配置git" class="headerlink" title="配置git"></a>配置git</h4><p>  在任意地方右键运行git bash，执行命令<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;yourname&quot;</span><br><span class="line">$ git config --global user.email &quot;youremail&quot;</span><br></pre></td></tr></table></figure></p><p>  其中yourname为你的GitHub名，youremail为你的GitHub邮箱。<br>  继续执行<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</span><br></pre></td></tr></table></figure></p><p>  可以在用户文件夹里看到一个<code>.ssh</code>文件，打开其中的<code>.pub</code>后缀名的文件，复制里面的内容。<br>  打开GitHub网站<br>  <img src="./setting1.png" alt="用户"><br>  <img src="./setting2.png" alt="用户"></p><h3 id="第三：安装hexo"><a href="#第三：安装hexo" class="headerlink" title="第三：安装hexo"></a>第三：安装hexo</h3><p>新建一个已准备存放blog的文件夹，在该文件目录下右键运行<code>git bash here</code>，输入<code>npm i -g hexo</code>，执行完毕后，输入<code>hexo -v</code>，出现版本号证明安装成功。</p><h3 id="第四：配置"><a href="#第四：配置" class="headerlink" title="第四：配置"></a>第四：配置</h3><ol><li>在你需要存放blog的文件夹运行git命令<br>- </li><li>点击<code>New reporitory</code>，新建仓库。<br><img src="./sign.png" alt="新建仓库"></li><li>注意这里的仓库名称必须是此格式，<code>yourname.github.io</code>。其中yourname是你的github名称。<br><img src="./new.png" alt="创建"></li><li>仓库有了，现在就是想把我们的blog上传到我们的仓库</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;想要利用hexo和GitHub page搭建自己的博客，首先就要安装必要的工具。&lt;strong&gt;&lt;em&gt; 在那之前你需要在&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Gi
-      
-    
-    </summary>
-    
-      <category term="Blog" scheme="https://jadedoo.github.io/categories/Blog/"/>
-    
-    
-      <category term="Hexo" scheme="https://jadedoo.github.io/tags/Hexo/"/>
-    
-  </entry>
   
   <entry>
     <title>利用3M安装nodejs</title>
