@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jadedoo.github.io/"/>
-  <updated>2018-04-12T14:54:39.575Z</updated>
+  <updated>2018-04-13T04:25:10.995Z</updated>
   <id>https://jadedoo.github.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VS Code前端插件</title>
+    <link href="https://jadedoo.github.io/post/71cfa6a3/"/>
+    <id>https://jadedoo.github.io/post/71cfa6a3/</id>
+    <published>2018-04-13T03:49:11.000Z</published>
+    <updated>2018-04-13T04:25:10.995Z</updated>
+    
+    <content type="html"><![CDATA[<table><thead><tr><th>名称</th><th>功能</th></tr></thead><tbody><tr><td>Auto Close Tag</td><td>自动闭合HTML标签</td></tr><tr><td>Auto Import Typescript</td><td>自动import提示</td></tr><tr><td>Auto Rename Tag</td><td>修改HTML标签时，自动修改匹配的标签</td></tr><tr><td>Beautify</td><td>格式化javascript，JSON，CSS，Sass，和HTML</td></tr><tr><td>Class autocomplete for HTML</td><td>智能提示HTML class =“”属性（必备）</td></tr><tr><td>Bracket Pair Colorizer</td><td>颜色识别匹配括号</td></tr><tr><td>Code Runner</td><td>运行选中代码段（支持大量语言，包括Node）</td></tr><tr><td>css peek</td><td>能够查看CSS ID和类的字符串作为HTML文件中相应的CSS定义（必备）</td></tr><tr><td>Color Highlight</td><td>颜色值在代码中高亮显示</td></tr><tr><td>Color Info</td><td>小窗口显示颜色值，rgb,hsl,cmyk,hex等等</td></tr><tr><td>Document This</td><td>添加注释块(Ctrl+alt+d)</td></tr><tr><td>ESLint</td><td>ESLint插件，高亮提示</td></tr><tr><td>Git History</td><td>以图表的形式查看git日志(Ctrl+shift+p)</td></tr><tr><td>HTML CSS Support</td><td>在 html 标签上写class 智能提示当前项目所支持的样式（必备）</td></tr><tr><td>HTML Snippets</td><td>html 代码片段（必备）</td></tr><tr><td>htmlhint</td><td>html代码检测</td></tr><tr><td>htmltagwrap</td><td>可以在选中HTML标签中外面套一层标签(Alt + W)</td></tr><tr><td>IntelliSense for CSS class names</td><td>智能提示 css 的 class 名</td></tr><tr><td>JavaScript (ES6) code snippets</td><td>es6代码片段（必备）</td></tr><tr><td>JavaScript Snippet Pack</td><td>js代码片段（必备）</td></tr><tr><td>Live Sass Compiler</td><td>实时编译 sass</td></tr><tr><td>open in browser</td><td>当前的 html 文件用浏览器打开(alt+b)</td></tr><tr><td>Output Colorizer</td><td>输出提示的文字颜色有一些变化，方便获取关键信息</td></tr><tr><td>Path Intellisense</td><td>路径自动补全（必备）</td></tr><tr><td>Sass</td><td>写 sass 必备</td></tr><tr><td>Quokka.js</td><td>实时观看 javascript 的变量的变化(shift+cmd+p （ctrl+shift+p）输入quokka选择new javascript)</td></tr><tr><td>Regex Previewer</td><td>测试正则的插件</td></tr><tr><td>vscode-icons</td><td>目录树图标</td></tr><tr><td>Dracula Official</td><td>主题插件。。。</td></tr><tr><td>React-Native/React/Redux snippets for es6/es7</td><td>react代码片段</td></tr><tr><td>react-beautify</td><td>格式化 javascript, JSX, typescript, TSX 文件</td></tr><tr><td>vetur</td><td>vue语法高亮、智能感知</td></tr><tr><td>VueHelper</td><td>vue代码片段</td></tr><tr><td>Vue TypeScript Snippets</td><td>vue的 typescript 代码片段</td></tr><tr><td>Vue 2 Snippets</td><td>vue 2代码片段</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;名称&lt;/th&gt;&lt;th&gt;功能&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Auto Close Tag&lt;/td&gt;&lt;td&gt;自动闭合HTML标签&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Auto Import Typescrip
+      
+    
+    </summary>
+    
+      <category term="应用类" scheme="https://jadedoo.github.io/categories/%E5%BA%94%E7%94%A8%E7%B1%BB/"/>
+    
+    
+      <category term="Tools" scheme="https://jadedoo.github.io/tags/Tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub利用Hexo搭建博客</title>
+    <link href="https://jadedoo.github.io/post/c3d89d7f/"/>
+    <id>https://jadedoo.github.io/post/c3d89d7f/</id>
+    <published>2018-04-12T13:25:26.000Z</published>
+    <updated>2018-04-13T09:28:02.692Z</updated>
+    
+    <content type="html"><![CDATA[<p>想要利用hexo和GitHub page搭建自己的博客，首先就要安装必要的工具。<strong><em> 在那之前你需要在<a href="https://github.com/" target="_blank" rel="noopener">Github</a>上注册一个账号。</em></strong></p><h3 id="第一：安装nodejs"><a href="#第一：安装nodejs" class="headerlink" title="第一：安装nodejs"></a>第一：安装nodejs</h3><p>不会安装的可以看我的另外一篇文章 <a href="../利用3M安装nodejs/index.html">传送门</a></p><h3 id="第二：安装git"><a href="#第二：安装git" class="headerlink" title="第二：安装git"></a>第二：安装git</h3><p>直接到官网下载安装包，傻瓜式安装。 <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">传送门</a>。</p><h4 id="配置git"><a href="#配置git" class="headerlink" title="配置git"></a>配置git</h4><p>在任意地方右键运行git bash，执行命令<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;yourname&quot;</span><br><span class="line">$ git config --global user.email &quot;youremail&quot;</span><br></pre></td></tr></table></figure><p></p><p>其中yourname为你的GitHub名，youremail为你的GitHub邮箱。<br>继续执行<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</span><br></pre></td></tr></table></figure><p></p><p>可以在用户文件夹里看到一个<code>.ssh</code>文件，打开其中的<code>.pub</code>后缀名的文件，复制里面的内容。<br>打开GitHub网站，点击头像，选择setting，找到 SSH and GPG keys<br><img src="http://p746ve2cn.bkt.clouddn.com/201804131610_811.png" alt=""><br><img src="http://p7490al8l.bkt.clouddn.com/201804131714_243.png" alt=""><br>点击右侧的<code>new SSH key</code><br><img src="http://p7490al8l.bkt.clouddn.com/201804131721_534.png" alt=""><br>把刚才复制的内容粘贴到<code>key</code>里<br><img src="http://p7490al8l.bkt.clouddn.com/201804131724_577.png" alt=""></p><h3 id="第三：安装hexo"><a href="#第三：安装hexo" class="headerlink" title="第三：安装hexo"></a>第三：安装hexo</h3><p>新建一个已准备存放blog的文件夹，在该文件目录下右键运行<code>git bash here</code>，输入<code>npm i -g hexo</code>，执行完毕后，输入<code>hexo -v</code>，出现版本号证明安装成功。</p><h3 id="第四：配置"><a href="#第四：配置" class="headerlink" title="第四：配置"></a>第四：配置</h3><ol><li>在BLOG文件夹中运行<code>git bash</code>，然后执行初始化命令<code>$ hexo init</code>。这时候hexo会自动生成说需要的文件。</li><li>执行完毕之后我们可以执行<code>$ hexo s --debug</code>命令打开hexo自带的服务器，默认端口号为4000。点击<a href="http://localhost:4000/" target="_blank" rel="noopener">localhost:4000</a></li><li>如果成功的话就可以看见hexo默认的模板页面，用<code>$ hexo new page &quot;name&quot;</code>新建文章，你可以随便写点内容，现在我们就要将它发布到网上去。不过在那之前，还需要在GitHub上新建一个仓库和配置一下<code>站点配置文件</code></li><li>打开blog文件根目录中找到<code>config.yml</code>文件，修改里面的部分内容。</li></ol><p>###第五：关联仓库<br>在此之前需要创建一个仓库</p><ol><li>点击<code>New reporitory</code>，新建仓库。<br><img src="http://p7490al8l.bkt.clouddn.com/201804131725_591.png" alt=""></li><li>注意这里的仓库名称必须是此格式，<code>yourname.github.io</code>。其中yourname是你的github名称。<br><img src="http://p7490al8l.bkt.clouddn.com/201804131727_795.png" alt=""></li><li>仓库有了，把本地blog上传到仓库。执行<code>$ hexo g -d</code>命令。<br>一切准备就绪，可以打开你的个人博客。GitHub page 网站格式 <code>yourname.github.io</code></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;想要利用hexo和GitHub page搭建自己的博客，首先就要安装必要的工具。&lt;strong&gt;&lt;em&gt; 在那之前你需要在&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github&lt;/a&gt;上注册一个
+      
+    
+    </summary>
+    
+      <category term="应用类" scheme="https://jadedoo.github.io/categories/%E5%BA%94%E7%94%A8%E7%B1%BB/"/>
+    
+    
+      <category term="Hexo" scheme="https://jadedoo.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>利用3M安装nodejs</title>

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[VS Code前端插件]]></title>
+    <url>%2Fpost%2F71cfa6a3%2F</url>
+    <content type="text"><![CDATA[名称功能Auto Close Tag自动闭合HTML标签Auto Import Typescript自动import提示Auto Rename Tag修改HTML标签时，自动修改匹配的标签Beautify格式化javascript，JSON，CSS，Sass，和HTMLClass autocomplete for HTML智能提示HTML class =“”属性（必备）Bracket Pair Colorizer颜色识别匹配括号Code Runner运行选中代码段（支持大量语言，包括Node）css peek能够查看CSS ID和类的字符串作为HTML文件中相应的CSS定义（必备）Color Highlight颜色值在代码中高亮显示Color Info小窗口显示颜色值，rgb,hsl,cmyk,hex等等Document This添加注释块(Ctrl+alt+d)ESLintESLint插件，高亮提示Git History以图表的形式查看git日志(Ctrl+shift+p)HTML CSS Support在 html 标签上写class 智能提示当前项目所支持的样式（必备）HTML Snippetshtml 代码片段（必备）htmlhinthtml代码检测htmltagwrap可以在选中HTML标签中外面套一层标签(Alt + W)IntelliSense for CSS class names智能提示 css 的 class 名JavaScript (ES6) code snippetses6代码片段（必备）JavaScript Snippet Packjs代码片段（必备）Live Sass Compiler实时编译 sassopen in browser当前的 html 文件用浏览器打开(alt+b)Output Colorizer输出提示的文字颜色有一些变化，方便获取关键信息Path Intellisense路径自动补全（必备）Sass写 sass 必备Quokka.js实时观看 javascript 的变量的变化(shift+cmd+p （ctrl+shift+p）输入quokka选择new javascript)Regex Previewer测试正则的插件vscode-icons目录树图标Dracula Official主题插件。。。React-Native/React/Redux snippets for es6/es7react代码片段react-beautify格式化 javascript, JSX, typescript, TSX 文件veturvue语法高亮、智能感知VueHelpervue代码片段Vue TypeScript Snippetsvue的 typescript 代码片段Vue 2 Snippetsvue 2代码片段]]></content>
+      <categories>
+        <category>应用类</category>
+      </categories>
+      <tags>
+        <tag>Tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[GitHub利用Hexo搭建博客]]></title>
+    <url>%2Fpost%2Fc3d89d7f%2F</url>
+    <content type="text"><![CDATA[想要利用hexo和GitHub page搭建自己的博客，首先就要安装必要的工具。 在那之前你需要在Github上注册一个账号。第一：安装nodejs不会安装的可以看我的另外一篇文章 传送门第二：安装git直接到官网下载安装包，傻瓜式安装。 传送门。配置git在任意地方右键运行git bash，执行命令12$ git config --global user.name &quot;yourname&quot;$ git config --global user.email &quot;youremail&quot;其中yourname为你的GitHub名，youremail为你的GitHub邮箱。继续执行1$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;可以在用户文件夹里看到一个.ssh文件，打开其中的.pub后缀名的文件，复制里面的内容。打开GitHub网站，点击头像，选择setting，找到 SSH and GPG keys点击右侧的new SSH key把刚才复制的内容粘贴到key里第三：安装hexo新建一个已准备存放blog的文件夹，在该文件目录下右键运行git bash here，输入npm i -g hexo，执行完毕后，输入hexo -v，出现版本号证明安装成功。第四：配置在BLOG文件夹中运行git bash，然后执行初始化命令$ hexo init。这时候hexo会自动生成说需要的文件。执行完毕之后我们可以执行$ hexo s --debug命令打开hexo自带的服务器，默认端口号为4000。点击localhost:4000如果成功的话就可以看见hexo默认的模板页面，用$ hexo new page &quot;name&quot;新建文章，你可以随便写点内容，现在我们就要将它发布到网上去。不过在那之前，还需要在GitHub上新建一个仓库和配置一下站点配置文件打开blog文件根目录中找到config.yml文件，修改里面的部分内容。###第五：关联仓库在此之前需要创建一个仓库点击New reporitory，新建仓库。注意这里的仓库名称必须是此格式，yourname.github.io。其中yourname是你的github名称。仓库有了，把本地blog上传到仓库。执行$ hexo g -d命令。一切准备就绪，可以打开你的个人博客。GitHub page 网站格式 yourname.github.io]]></content>
+      <categories>
+        <category>应用类</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[利用3M安装nodejs]]></title>
     <url>%2Fpost%2Fc80c1044%2F</url>
     <content type="text"><![CDATA[nodejs在window下安装nodejs有很多中安装方式，本篇文章使用的是nvm(nodejs version manager,版本管理工具)方式来进行安装。详情请查看【官方文档】。安装nvm首先下载nvm包,我们选择我们需要的免安装版:nvm-noinstall.zip,下载完成后解压,解压到你想要解压的地方就好,例如:C:\dev\nvm,文件包含:elevate.cmdelevate.vbsinstall.cmdLICENSEnvm.exe运行install.cmd,直接回车,会在C盘的根目录下生成settings.txt文件，将这个文件剪切到C:\dev\nvm目录中修改其中的内容root: C:\dev\nvmpath: C:\dev\nodejsproxy: nonenode_mirror: http://npm.taobao.org/mirrors/node/npm_mirror: https://npm.taobao.org/mirrors/npm/配置环境变量，运行了install.cmd，所以直接在环境变量中找到并修改NVM_HOME:C:\dev\nvm,NVM_SYMLINK:C:\dev\nodejs然后修改path，如果发现path中有路径C:\dev\nvm，就将它删除，我们自己在最前面添加’ ;%NVM_HOME%;%NVM_SYMLINK%;’运行cmd，输入 ‘nvm -v’ 显示版本号证明安装成功，注意它会显示一堆东西，往上拉就可以看见版本号,然后就可以安装nodejs了。输入 nvm install lastest 安装最新版的nodejs，如果不想下载最新版则输入nvm install 版本号，例如 nvm install 7.9.0，32位的电脑还得在后面添加一个32。这是打开C:\dev会发现有一个noedjs文件夹的快捷方式，它指向的就是C:\dev\nvm中nodejs的版本文件夹，例如v7.9.0运用nvm可以进行版本切换，nvm use 版本号，前提是得有这个版本。输入nvm list 可以查看目前安装了几个nodejs版本和正在使用哪个版本。安装npmnpm(nodejs package manager，nodejs包管理工具)，每一个版本的nodejs都会自带一个npm，但是有时候明明安装了包，却无法使用，其中就有可能是因为版本切换问题而引起的，所以需要安装一个全局的npm。运行cmd，输入npm config set prefix “C:\dev\nvm\npm，运行完成后可以在用户文件夹中找到一个.npmrc的文件，里面存的是一个路径。继续输入npm install npm -g，等待下载。这是可以在C:\dev\nvm\npm中查看文件，以后需要安装全局包在后面加一个-g就好了。当然，需要单独为全局npm配置环境变量NPM_HOME:C:\dev\nvm\npm在path最前面加上;%NPM_HOME%，这个是必须加载%NVM_SYMLINK%之前的，输入 npm -v 显示版本号证明安装成功。安装nrmnrm(npm registry manager，npm的镜像源管理工具)，这是为了切换镜像源，为什么需要？有时候国外的资源太慢，我们需要切换国内的资源点。运行cmd，输入npm install -g nrm，等待下载安装完毕。输入nrm ls，可以查看所有的可切换源地址。一般来说国内的肯定比国外的要快，所以我们一般用淘宝的镜像地址，输入nrm use cnpm就可以切换了。]]></content>
